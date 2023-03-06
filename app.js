@@ -17,4 +17,5 @@ nobtn.addEventListener('click', () => {
 
     nobtn.style.left = i + 'px';
     nobtn.style.left = j + 'px';
+    
 })
