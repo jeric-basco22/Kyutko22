@@ -11,6 +11,7 @@ yesbtn.addEventListener('click', () =>{
 });
 
 nobtn.addEventListener('click', () => {
+    question.innerHTML = 'You do not have any other choice, just say yes😜😅';
     const i = Math.floor(Math.random()*(wrapperRect.width - nobtnRect.width))+1;
     const j = Math.floor(Math.random()*(wrapperRect.height - nobtnRect.height))+1;
 
